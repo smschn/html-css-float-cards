@@ -34,7 +34,6 @@ main {
 }
 
 .container-card {
-    border: solid 1px red; /* da togliere */
     height: 100px;
     float: left;
     width: calc(100% / 3);
