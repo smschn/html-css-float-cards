@@ -10,7 +10,7 @@ body {
 }
 
 main {
-    max-width: 1170px;
+    max-width: 90%;
     margin: auto;
 }
 
@@ -28,7 +28,6 @@ main {
 }
 
 .container-main {
-    border: solid 1px black;
     height: 100px;
     margin-bottom: 50px;
 }
@@ -36,8 +35,9 @@ main {
 .container-card {
     height: 100px;
     float: left;
-    width: calc(100% / 3);
+    width: calc(100% / 3 - 20px);
     background-color: black;
+    /*margin-right: 30px;*/
 }
 
 .clearfix {
@@ -72,4 +72,8 @@ main {
 
 div > p {
     margin: 10px;
+}
+
+.margin-right {
+    margin-right: 30px;
 }
