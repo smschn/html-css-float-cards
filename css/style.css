@@ -34,7 +34,7 @@ p {
 
 .container-card {
     border: solid 1px red;
-    height: 100%;
+    height: 250px;
     float: left;
     width: calc(100% / 3);
     padding: 30px;
@@ -44,4 +44,10 @@ p {
     content: "";
     display: table;
     clear: both;
+}
+
+.img-male1 {
+    width: 100px;
+    height: 100px;
+    float: left;
 }
