@@ -35,11 +35,11 @@ main {
 .container-card {
     height: 100px;
     float: left;
-    width: calc(100% / 3 - 20px); /* rimangono 60px da usare come margin sulle prime due card della riga */
+    width: calc(100% / 3 - 20px);   /* Rimangono 60px da usare come margin sulle prime due card della riga */
     background-color: black;
 }
 
-.clearfix:after {
+.clearfix:after {   /* Nessun effetto visivo in questo caso particolare, ma è da mettere */
     content: "";
     display: table;
     clear: both;
@@ -74,5 +74,5 @@ div > p {
 }
 
 .margin-right {
-    margin-right: 30px; /* uso i 60px liberi */
+    margin-right: 30px; /* Uso i 60px liberi */
 }
