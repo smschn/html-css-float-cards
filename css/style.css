@@ -30,6 +30,7 @@ main {
 .container-main {
     border: solid 1px black;
     height: 100px;
+    margin-bottom: 50px;
 }
 
 .container-card {
