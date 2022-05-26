@@ -33,11 +33,12 @@ p {
 }
 
 .container-card {
-    border: solid 1px red;
+    border: solid 1px red; /* da togliere */
     height: 250px;
     float: left;
     width: calc(100% / 3);
     padding: 30px;
+    background-color: black;
 }
 
 .clearfix {
@@ -50,4 +51,24 @@ p {
     width: 100px;
     height: 100px;
     float: left;
+}
+
+.person-info {
+    text-align: center;
+}
+
+.span {
+    margin: 35px;
+}
+
+.name {
+    font-weight: 700;
+}
+
+.name, .job {
+    color: #fff;
+}
+
+.mail {
+    color: #1fb3f5;
 }
