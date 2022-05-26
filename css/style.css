@@ -34,5 +34,14 @@ p {
 
 .container-card {
     border: solid 1px red;
-    height: 50px;
+    height: 100%;
+    float: left;
+    width: calc(100% / 3);
+    padding: 30px;
+}
+
+.clearfix {
+    content: "";
+    display: table;
+    clear: both;
 }
