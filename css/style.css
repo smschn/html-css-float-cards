@@ -39,7 +39,7 @@ main {
     background-color: black;
 }
 
-.clearfix {
+.clearfix:after {
     content: "";
     display: table;
     clear: both;
