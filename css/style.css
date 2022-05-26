@@ -29,15 +29,14 @@ p {
 
 .container-main {
     border: solid 1px black;
-    height: 500px;
+    height: 100px;
 }
 
 .container-card {
     border: solid 1px red; /* da togliere */
-    height: 250px;
+    height: 100px;
     float: left;
     width: calc(100% / 3);
-    padding: 30px;
     background-color: black;
 }
 
@@ -47,14 +46,15 @@ p {
     clear: both;
 }
 
+.person-info {
+    text-align: center;
+    height: 100px;
+}
+
 .img-male1 {
     width: 100px;
     height: 100px;
     float: left;
-}
-
-.person-info {
-    text-align: center;
 }
 
 .span {
