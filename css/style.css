@@ -19,7 +19,7 @@ main {
     margin: 40px;
 }
 
-.title, h1 p {
+.title, .p-title {
     text-align: center;
 }
 
