@@ -23,7 +23,7 @@ main {
     text-align: center;
 }
 
-p {
+.p-title {
     margin-bottom: 40px;
 }
 
@@ -47,7 +47,7 @@ p {
 }
 
 .person-info {
-    text-align: center;
+    text-align: left;
     height: 100px;
 }
 
@@ -55,10 +55,7 @@ p {
     width: 100px;
     height: 100px;
     float: left;
-}
-
-.span {
-    margin: 35px;
+    margin-right: 10px;
 }
 
 .name {
@@ -71,4 +68,8 @@ p {
 
 .mail {
     color: #1fb3f5;
+}
+
+div > p {
+    margin: 10px;
 }
