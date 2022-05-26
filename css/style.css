@@ -15,5 +15,24 @@ main {
 }
 
 .title {
+    color: #e53170;
+    margin: 40px;
+}
 
+.title, h1 p {
+    text-align: center;
+}
+
+p {
+    margin-bottom: 40px;
+}
+
+.container-main {
+    border: solid 1px black;
+    height: 500px;
+}
+
+.container-card {
+    border: solid 1px red;
+    height: 50px;
 }
