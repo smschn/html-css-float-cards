@@ -37,6 +37,7 @@ main {
     float: left;
     width: calc(100% / 3 - 20px);   /* Rimangono 60px da usare come margin sulle prime due card della riga */
     background-color: black;
+    box-shadow: 0 0 10px #000;
 }
 
 .clearfix:after {   /* Nessun effetto visivo in questo caso particolare, ma è da mettere */
